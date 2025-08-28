@@ -1,4 +1,4 @@
-export const BASEURL = "http://localhost:8080/CalcJ/";
+export const BASEURL = "http://43.205.236.109:8080/CalcJ/";
 export function callApi(reqmethod, url, data, responseHandler) {
   let options = "";
   if (reqmethod === "GET" || reqmethod === "DELETE")
